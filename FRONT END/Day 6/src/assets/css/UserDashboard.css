@@ -1,0 +1,231 @@
+/* .dashboard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.user-dashboard {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  
+  padding: 30px; 
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.sidebar-fixed {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;  
+  z-index: 1;
+}
+
+.user-dashboard-content {
+  flex: 1; 
+  padding-left: 250px; 
+}
+
+.booking-details {
+  margin-top: 20px; 
+}
+
+.booking-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.booking-details li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.booking-details li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.booking-details li img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.booking-details li:hover img {
+  transform: scale(1.1);
+}
+
+.profile-section p {
+  margin-bottom: 10px;
+}
+
+.navigation-links {
+  text-align: center;
+}
+
+.navigation-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.navigation-links a:hover {
+  background-color: #333;
+  color: #fff;
+} */
+
+/* UserDashboard.css */
+
+.user-dashboard {
+  display: flex;
+  /* background-image: url('../images//userdash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+  height: max-content;
+  flex-direction: row;
+  /* align-items: center; */
+}
+.view-booking-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.fast-selling-boats,
+.offers {
+  margin-top: 30px;
+}
+
+.fast-selling-boats h2,
+.offers h2 {
+  margin-bottom: 10px;
+}
+
+.fast-selling-boats p,
+.offers p {
+  margin-bottom: 20px;
+}
+
+.boat-list,
+.offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* .dashboard-content h2{
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: fit-content;
+  padding: 20px;
+} */
+.boat-card,
+.offer-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(50% - 20px);
+}
+
+.boat-card img,
+.offer-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.boat-card h3,
+.offer-card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.boat-card p,
+.offer-card p {
+  margin-bottom: 10px;
+}
+.view-booking-button:hover {
+  background-color: #0056b3;
+}
+.dashboard-content {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin-left: 30%;
+  max-width: 100%;
+ 
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dashboard-content h1 {
+  margin-bottom: 20px;
+}
+
+.fast-selling-boats,
+.offers {
+  margin-bottom: 40px;
+}
+
+.boat-list,
+.offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.boat-card,
+.offer-card {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.boat-card img,
+.offer-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.boat-card h3,
+.offer-card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.boat-card p,
+.offer-card p {
+  margin-bottom: 10px;
+}

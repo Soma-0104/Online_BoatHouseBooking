@@ -1,0 +1,55 @@
+.role {
+    background-image: url('../images/bo1.webp');
+    padding-bottom: 150px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 30%;
+    padding-right: 20%;
+    justify-content: space-between;
+    text-align: center;
+    /* border-radius: 20px; */
+    background-color: rgba(255, 255, 255, 0.5); /* Fallback for unsupported browsers */
+    /* backdrop-filter: blur(10px);  */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.r{
+    text-decoration: none;
+    color: black;
+}
+.role-nav{
+    display: flex;
+    flex-direction: column;
+}
+.role::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency by changing the alpha value */
+    z-index: -1;
+}
+
+.role-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    height: 50%;
+    margin-bottom: 25%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-right: 70px; 
+}
+
+.role-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+.role-card{
+    text-decoration: none;
+    color: black;
+}

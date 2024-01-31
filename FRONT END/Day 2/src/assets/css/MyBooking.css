@@ -1,0 +1,55 @@
+.my-booking {
+    /* max-width: 100%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100%;
+overflow-x: hidden;
+
+}
+.booking-container h1{
+  margin-left: 40px;
+}
+.booking-container {
+    font-family:monospace;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-size: cover;
+    margin-left: 40%;
+    width: 100%;
+    justify-content: center; /* Change to space-around for equal spacing between cards */
+    padding: 20px;
+    
+  }
+  
+  .booking-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #eef2f3;
+    border-radius: 5px;
+    height: fit-content;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .booking-details {
+    margin-top: 15px;
+  }
+  
+  .booking-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .booking-details p {
+    margin-bottom: 5px;
+  }
+  
