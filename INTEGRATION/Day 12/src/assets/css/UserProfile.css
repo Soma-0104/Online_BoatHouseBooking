@@ -1,0 +1,76 @@
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image:url('../images/pro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-card {
+  display: flex;
+  background-color: #f9f9f9;
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 150px;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* margin-right: 20px; */
+}
+
+.user-details {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-button, .edit-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #007bff;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  background-color: #28a745;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}

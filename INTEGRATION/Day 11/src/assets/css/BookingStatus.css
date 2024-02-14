@@ -1,0 +1,28 @@
+.booking-status-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.booking-status-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.booking-status-table th,
+.booking-status-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.booking-status-table th {
+    background-color: #f2f2f2;
+}
+
+.booking-status-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.booking-status-table tbody tr:hover {
+    background-color: #ddd;
+}
